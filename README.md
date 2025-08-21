@@ -7,13 +7,13 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🎯 **Project Overview**
+##  **Project Overview**
 
 The Nutrition Policy Tool is an AI-driven application that addresses the critical challenge of identifying and mitigating nutrition gaps in vulnerable populations. Built for the **DERPIn Data Challenge 2025 - Track 3: Inclusive Nutrition Policies**, this tool provides policymakers and community leaders with actionable insights through machine learning predictions and intervention simulations.
 
 ## 🌟 **Key Features**
 
-### **🤖 Machine Learning Models**
+### ** Machine Learning Models**
 - **Multiple ML Algorithms**: Random Forest, Gradient Boosting, Logistic Regression, SVM, Ensemble
 - **Cross-Validation**: 5-fold cross-validation for robust model evaluation
 - **Feature Selection**: Automatic selection of 15 most important features
@@ -143,7 +143,7 @@ nutrition-policy-tool/
 - **Climate Stress Index**: Temperature and rainfall stress factors
 - **Market Stress Index**: Price volatility and access challenges
 
-## 🎯 **Use Cases**
+##  **Use Cases**
 
 ### **For Policymakers**
 - **Resource Allocation**: Identify high-priority regions for intervention
@@ -223,9 +223,7 @@ pip install -r requirements-dev.txt
 pytest tests/
 ```
 
-## 📄 **License**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 **Acknowledgments**
 
@@ -234,14 +232,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **FS-COR** for food system crisis observatory data
 - **Open Source Community** for the tools and libraries that made this project possible
 
-## 📞 **Contact**
 
-- **Project**: [Nutrition Policy Tool](https://github.com/mahitab-ayman/nutrition-policy-tool)
-- **Author**: Mahitab Ayman
-- **Challenge**: DERPIn Data Challenge 2025 - Track 3: Inclusive Nutrition Policies
-
----
-
-**⭐ Star this repository if you find it helpful!**
-
-**🏆 Built for DERPIn Data Challenge 2025 - Making AI Work for Nutrition Policy!**
