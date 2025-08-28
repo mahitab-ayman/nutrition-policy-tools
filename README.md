@@ -124,7 +124,7 @@ nutrition-policy-tool/
 - **Interactive Components**: Real-time charts, filters, and controls
 - **Session Management**: Persistent state across user interactions
 
-## 📊 **Data Sources**
+##  **Data Sources**
 
 ### **AGWAA (African Growth and Wellbeing Analysis)**
 - **Countries**: Benin, Senegal, Ghana, Uganda, Malawi
