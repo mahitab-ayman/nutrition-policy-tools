@@ -11,7 +11,7 @@
 
 The Nutrition Policy Tool is an AI-driven application that addresses the critical challenge of identifying and mitigating nutrition gaps in vulnerable populations. Built for the **DERPIn Data Challenge 2025 - Track 3: Inclusive Nutrition Policies**, this tool provides policymakers and community leaders with actionable insights through machine learning predictions and intervention simulations.
 
-## 🌟 **Key Features**
+##  **Key Features**
 
 ### ** Machine Learning Models**
 - **Multiple ML Algorithms**: Random Forest, Gradient Boosting, Logistic Regression, SVM, Ensemble
@@ -19,25 +19,25 @@ The Nutrition Policy Tool is an AI-driven application that addresses the critica
 - **Feature Selection**: Automatic selection of 15 most important features
 - **Model Performance**: Comprehensive metrics (Accuracy, AUC, CV Scores)
 
-### **📊 Interactive Dashboard**
+### ** Interactive Dashboard**
 - **Country Selection**: Support for 5 DERPIn countries (Benin, Senegal, Ghana, Uganda, Malawi)
 - **Regional Analysis**: Granular analysis at regional level
 - **Real-time Visualizations**: Interactive charts and metrics
 - **Data Export**: Multiple format support (CSV, Excel, JSON)
 
-### **🔬 Intervention Simulation**
+### ** Intervention Simulation**
 - **Three Intervention Types**: Supplementation, Dietary Change, Infrastructure
 - **Impact Assessment**: Risk reduction calculations and cost-benefit analysis
 - **ROI Analysis**: Return on investment metrics for policy decisions
 - **Population Impact**: Number of people benefited from interventions
 
-### **📋 Policy Recommendations**
+### ** Policy Recommendations**
 - **AI-Generated Insights**: Automated policy recommendations based on ML predictions
 - **Priority Classification**: High, Medium, Low priority recommendations
 - **Cost Estimates**: Budget planning for implementation
 - **Timeline Planning**: Short and long-term action plans
 
-## 🏆 **DERPIn Challenge Alignment**
+##  **DERPIn Challenge Alignment**
 
 ### **Challenge Requirements Met**
 ✅ **Build AI-driven tools to predict nutrition gaps**  
@@ -52,17 +52,17 @@ The Nutrition Policy Tool is an AI-driven application that addresses the critica
 - **FS-COR Platform**: Food System Crisis Observatory and Response
 - **Open Datasets**: Additional nutrition and agricultural indicators
 
-## 📈 **Model Performance**
+##  **Model Performance**
 
 | Model | Accuracy | AUC | CV Score | Status |
 |-------|----------|-----|----------|---------|
-| **Logistic Regression** | **82.18%** | **90.02%** | **78.54% ± 1.51%** | 🏆 **Best Model** |
+| **Logistic Regression** | **82.18%** | **90.02%** | **78.54% ± 1.51%** |  **Best Model** |
 | Random Forest | 77.72% | 84.04% | 75.44% ± 2.11% | ✅ |
 | SVM | 79.70% | 87.55% | 75.68% ± 2.00% | ✅ |
 | Gradient Boosting | 77.72% | 83.28% | 73.70% ± 1.61% | ✅ |
 | Ensemble | 79.21% | 86.93% | 75.56% ± 1.16% | ✅ |
 
-## 🚀 **Quick Start**
+##  **Quick Start**
 
 ### **Prerequisites**
 ```bash
@@ -90,7 +90,7 @@ streamlit run app.py
 4. **Simulate Interventions**: Test different policy scenarios
 5. **Generate Recommendations**: Get AI-powered policy insights
 
-## 🏗️ **Architecture**
+##  **Architecture**
 
 ```
 nutrition-policy-tool/
@@ -106,7 +106,7 @@ nutrition-policy-tool/
 └── README.md            # This file
 ```
 
-## 🔧 **Technical Implementation**
+##  **Technical Implementation**
 
 ### **Machine Learning Pipeline**
 - **Feature Engineering**: 20+ nutrition and socio-economic indicators
@@ -163,7 +163,7 @@ nutrition-policy-tool/
 - **Trend Analysis**: Longitudinal nutrition patterns
 - **Comparative Studies**: Cross-country and cross-regional analysis
 
-## 🔬 **Methodology**
+##  **Methodology**
 
 ### **Machine Learning Approach**
 1. **Data Integration**: Multi-source data fusion with quality checks
@@ -178,7 +178,7 @@ nutrition-policy-tool/
 3. **Impact Calculation**: Risk reduction and population benefit metrics
 4. **Cost Analysis**: Implementation costs and ROI calculations
 
-## 📈 **Results & Impact**
+##  **Results & Impact**
 
 ### **Model Performance**
 - **Best Model**: Logistic Regression with 82.18% accuracy
@@ -192,7 +192,7 @@ nutrition-policy-tool/
 - **Evidence-Based**: Data-driven policy recommendations
 - **Scalable Solution**: Applicable across multiple countries
 
-## 🚀 **Future Enhancements**
+##  **Future Enhancements**
 
 ### **Short-term (3-6 months)**
 - **Real-time Data**: Live API integration with AGWAA and FS-COR
@@ -205,7 +205,7 @@ nutrition-policy-tool/
 - **Cloud Deployment**: Scalable cloud infrastructure
 - **Machine Learning Pipeline**: Automated model retraining
 
-## 🤝 **Contributing**
+##  **Contributing**
 
 We welcome contributions to improve the Nutrition Policy Tool! Please see our contributing guidelines for more details.
 
@@ -225,7 +225,7 @@ pytest tests/
 
 
 
-## 🙏 **Acknowledgments**
+##  **Acknowledgments**
 
 - **DERPIn Data Challenge 2025** for the opportunity to address real-world nutrition challenges
 - **AGWAA** for providing comprehensive nutrition data
