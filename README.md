@@ -13,25 +13,25 @@ The Nutrition Policy Tool is an AI-driven application that addresses the critica
 
 ##  **Key Features**
 
-### ** Machine Learning Models**
+###  Machine Learning Models
 - **Multiple ML Algorithms**: Random Forest, Gradient Boosting, Logistic Regression, SVM, Ensemble
 - **Cross-Validation**: 5-fold cross-validation for robust model evaluation
 - **Feature Selection**: Automatic selection of 15 most important features
 - **Model Performance**: Comprehensive metrics (Accuracy, AUC, CV Scores)
 
-### ** Interactive Dashboard**
+###  Interactive Dashboard
 - **Country Selection**: Support for 5 DERPIn countries (Benin, Senegal, Ghana, Uganda, Malawi)
 - **Regional Analysis**: Granular analysis at regional level
 - **Real-time Visualizations**: Interactive charts and metrics
 - **Data Export**: Multiple format support (CSV, Excel, JSON)
 
-### ** Intervention Simulation**
+###  Intervention Simulation
 - **Three Intervention Types**: Supplementation, Dietary Change, Infrastructure
 - **Impact Assessment**: Risk reduction calculations and cost-benefit analysis
 - **ROI Analysis**: Return on investment metrics for policy decisions
 - **Population Impact**: Number of people benefited from interventions
 
-### ** Policy Recommendations**
+###  Policy Recommendations
 - **AI-Generated Insights**: Automated policy recommendations based on ML predictions
 - **Priority Classification**: High, Medium, Low priority recommendations
 - **Cost Estimates**: Budget planning for implementation
@@ -39,7 +39,7 @@ The Nutrition Policy Tool is an AI-driven application that addresses the critica
 
 ##  **DERPIn Challenge Alignment**
 
-### **Challenge Requirements Met**
+### Challenge Requirements Met
 ✅ **Build AI-driven tools to predict nutrition gaps**  
 ✅ **Display predictions in interactive dashboards**  
 ✅ **Gather nutrient adequacy data from AGWAA & FS-COR**  
@@ -47,7 +47,7 @@ The Nutrition Policy Tool is an AI-driven application that addresses the critica
 ✅ **Allow simulation of intervention impacts**  
 ✅ **Build clear interfaces for diverse stakeholders**
 
-### **Data Sources Integrated**
+### Data Sources Integrated
 - **AGWAA API**: African Growth and Wellbeing Analysis
 - **FS-COR Platform**: Food System Crisis Observatory and Response
 - **Open Datasets**: Additional nutrition and agricultural indicators
@@ -64,13 +64,13 @@ The Nutrition Policy Tool is an AI-driven application that addresses the critica
 
 ##  **Quick Start**
 
-### **Prerequisites**
+### Prerequisites
 ```bash
 Python 3.8+
 pip install -r requirements.txt
 ```
 
-### **Installation**
+### Installation
 ```bash
 # Clone the repository
 git clone https://github.com/mahitab-ayman/nutrition-policy-tool.git
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### **Usage**
+### Usage
 1. **Select Country**: Choose from 5 DERPIn countries
 2. **Train Models**: Click "Train Machine Learning Model" in Risk Prediction tab
 3. **Analyze Data**: Explore nutrition trends and regional comparisons
@@ -108,36 +108,36 @@ nutrition-policy-tool/
 
 ##  **Technical Implementation**
 
-### **Machine Learning Pipeline**
+### Machine Learning Pipeline
 - **Feature Engineering**: 20+ nutrition and socio-economic indicators
 - **Data Preprocessing**: Missing value handling, normalization, feature selection
 - **Model Training**: Grid search optimization, cross-validation
 - **Prediction Pipeline**: Real-time risk assessment and intervention simulation
 
-### **Data Processing**
+### Data Processing
 - **Multi-Source Integration**: AGWAA + FS-COR + derived features
 - **Real-time Processing**: Dynamic data loading and feature calculation
 - **Quality Assurance**: Data validation and ML readiness checks
 
-### **User Interface**
+### User Interface
 - **Responsive Design**: Mobile-friendly Streamlit interface
 - **Interactive Components**: Real-time charts, filters, and controls
 - **Session Management**: Persistent state across user interactions
 
 ##  **Data Sources**
 
-### **AGWAA (African Growth and Wellbeing Analysis)**
+### AGWAA (African Growth and Wellbeing Analysis)
 - **Countries**: Benin, Senegal, Ghana, Uganda, Malawi
 - **Indicators**: Nutrient adequacy scores, population demographics
 - **Coverage**: 2018-2024 monthly data
 - **Regions**: Country-specific administrative regions
 
-### **FS-COR (Food System Crisis Observatory)**
+### FS-COR (Food System Crisis Observatory)
 - **Food Security**: Availability, access, utilization, stability indices
 - **Climate Data**: Rainfall, temperature, crop yield indicators
 - **Market Information**: Food prices, market access scores
 
-### **Derived Features**
+### Derived Features
 - **Vulnerability Score**: Poverty, rural population, children under 5
 - **Nutrition Risk Score**: Combined nutrient and food security indicators
 - **Climate Stress Index**: Temperature and rainfall stress factors
@@ -145,19 +145,19 @@ nutrition-policy-tool/
 
 ##  **Use Cases**
 
-### **For Policymakers**
+### For Policymakers
 - **Resource Allocation**: Identify high-priority regions for intervention
 - **Budget Planning**: Cost-benefit analysis of nutrition programs
 - **Policy Design**: Evidence-based intervention strategies
 - **Impact Monitoring**: Track intervention effectiveness over time
 
-### **For NGOs & Community Leaders**
+### For NGOs & Community Leaders
 - **Program Planning**: Target vulnerable populations effectively
 - **Resource Optimization**: Maximize impact with limited resources
 - **Stakeholder Communication**: Clear data visualization for diverse audiences
 - **Capacity Building**: Training and education programs
 
-### **For Researchers**
+### For Researchers
 - **Data Analysis**: Comprehensive nutrition and food security datasets
 - **Model Validation**: Test intervention hypotheses
 - **Trend Analysis**: Longitudinal nutrition patterns
@@ -165,14 +165,14 @@ nutrition-policy-tool/
 
 ##  **Methodology**
 
-### **Machine Learning Approach**
+### Machine Learning Approach
 1. **Data Integration**: Multi-source data fusion with quality checks
 2. **Feature Engineering**: 20+ derived indicators for comprehensive analysis
 3. **Model Selection**: Ensemble approach with cross-validation
 4. **Performance Evaluation**: Multiple metrics for robust assessment
 5. **Interpretability**: Feature importance and explainable AI
 
-### **Intervention Simulation**
+### Intervention Simulation
 1. **Baseline Assessment**: Current risk levels and population distribution
 2. **Scenario Modeling**: Different intervention types and strengths
 3. **Impact Calculation**: Risk reduction and population benefit metrics
@@ -180,13 +180,13 @@ nutrition-policy-tool/
 
 ##  **Results & Impact**
 
-### **Model Performance**
+### Model Performance
 - **Best Model**: Logistic Regression with 82.18% accuracy
 - **AUC Score**: 90.02% indicating excellent discrimination
 - **Cross-Validation**: 78.54% ± 1.51% showing model stability
 - **Feature Importance**: Identified key drivers of nutrition risk
 
-### **Policy Impact**
+### Policy Impact
 - **Targeted Interventions**: Focus on highest-risk populations
 - **Cost Efficiency**: Optimized resource allocation
 - **Evidence-Based**: Data-driven policy recommendations
@@ -194,12 +194,12 @@ nutrition-policy-tool/
 
 ##  **Future Enhancements**
 
-### **Short-term (3-6 months)**
+### Short-term (3-6 months)
 - **Real-time Data**: Live API integration with AGWAA and FS-COR
 - **Mobile App**: Native mobile application for field workers
 - **Advanced Analytics**: Time series forecasting and trend analysis
 
-### **Long-term (6-12 months)**
+### Long-term (6-12 months)
 - **Multi-language Support**: Local language interfaces
 - **API Development**: RESTful API for third-party integrations
 - **Cloud Deployment**: Scalable cloud infrastructure
@@ -209,7 +209,7 @@ nutrition-policy-tool/
 
 We welcome contributions to improve the Nutrition Policy Tool! Please see our contributing guidelines for more details.
 
-### **Development Setup**
+### Development Setup
 ```bash
 # Create virtual environment
 python -m venv venv
